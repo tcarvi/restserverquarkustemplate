@@ -29,14 +29,14 @@ injected:
 
 value: lookup value Default
 
-quarkus:
-  package:
-    output-name: restquarkustemplate
-  ssl:
-    native: true
+# quarkus:
+#   package:
+#     output-name: restquarkustemplate
+#   ssl:
+#     native: true
 
-mp:
-  fault:
-    tolerance:
-      interceptor:
-        priority: 3000
+# mp:
+#   fault:
+#     tolerance:
+#       interceptor:
+#         priority: 3000
